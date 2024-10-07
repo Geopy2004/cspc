@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.logo {
+    width: 360px;
+    height: 360px;
+    padding-block: 28px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+
+.login-button {
+   width: 210px;
+   height: 53px;
+   border-radius: 25px;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: bold;
+   transition: background-color 0.18s, box-shadow 0.15s,
+   width 0.68s, height 0.68s;
+   border: none;
+}
+
+.login-button:hover {
+    width: 240px;
+    height: 60px;
+    background-color:  #26b6a3;
+    box-shadow: 1px 1px 19px #26b6a3;
+}
+
+.login-button:active {
+    opacity: 0.8;
+}
+
+.admin-create-account-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.create-account-button {
+    width: 210px;
+    height: 53px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+    transition: background-color 0.18s, box-shadow 0.15s,
+    width 0.68s, height 0.68s;
+    border: none;
+}
+
+.create-account-button:hover {
+    width: 240px;
+    height: 60px;
+    background-color:  #26b6a3;
+    box-shadow: 1px 1px 19px #26b6a3;
+}
+
+.create-account-button:active {
+    opacity: 0.8;
+}
+
+.admin {
+    width: 210px;
+    height: 53px;
+    margin-left: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+    transition: background-color 0.18s, box-shadow 0.15s,
+    width 0.68s, height 0.68s;
+    border: none;
+}
+
+.admin:hover {
+    width: 240px;
+    height: 60px;
+    background-color: #26b6a3;
+    box-shadow: 1px 1px 19px #26b6a3;
+}
+
+.admin:active {
+    opacity: 0.8;
+}

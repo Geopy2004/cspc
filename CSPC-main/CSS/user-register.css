@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F2AA4CFF;
+    box-shadow: 0px 2px 5px #f1f1f1;
+}
+
+.logo-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 50px;
+    padding-block: 7px;
+}
+
+.business-name {
+    margin-left: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.main-div {
+    width: 510px;
+    margin: 60px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 12px #f1f1f1;
+    background-color:  #161515;
+    border-radius: 35px;
+}
+
+.sign-up-header {
+    color: white;
+    margin-top: 21px;
+    font-size: 32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.sign-up-header:hover {
+    color:#26b6a3;
+}
+
+.fullname {
+    width: 390px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.email {
+    width: 390px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.username {
+    width: 390px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.password {
+    width: 390px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.confirm-password {
+    width: 390px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    border: none;
+}
+
+.submit-button {
+    width: 420px;
+    height: 41px;
+    font-size: 17px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    border-radius: 16px;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color:#26b6a3;
+    box-shadow: 1px 1px 18px #26b6a3;
+}
+
+.submit-button:active {
+    opacity: 0.8;
+}
+
+.go-to-login-button {
+    width: 420px;
+    height: 41px;
+    font-size: 17px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    border-radius: 16px;
+    border: none;
+}
+
+.go-to-login-button:hover {
+    background-color:#26b6a3;
+    box-shadow: 1px 1px 18px #26b6a3;
+}
+
+.go-to-login-button:active {
+    opacity: 0.8;
+}

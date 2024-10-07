@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F2AA4CFF;
+    box-shadow: 0px 2px 5px #f1f1f1;
+}
+
+.logo-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 50px;
+    padding-block: 7px;
+}
+
+.business-name {
+    margin-left: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.main-content {
+    height: 400px;
+    width: 550px;
+    margin: 100px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 12px #f1f1f1;
+    background-color:  #161515;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.header-content {
+    color: white;
+    font-size: 32px;
+    margin: -20px 0px 7px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.email {
+    width: 390px;
+    height: 46px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.password {
+    width: 390px;
+    height: 46px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    border: none;
+}
+
+.login-button {
+    width: 420px;
+    height: 44px;
+    font-size: 17px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    border-radius: 16px;
+    border: none;
+    
+}
+
+.login-button:hover {
+    background-color:#26b6a3;
+    box-shadow: 1px 1px 18px #26b6a3;
+}
+
+.login-button:active {
+    opacity: 0.8;
+}
+
+.back-button {
+    width: 420px;
+    height: 44px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color:#26b6a3;
+    box-shadow: 1px 1px 18px #26b6a3;
+}
+
+.back-button:active {
+    opacity: 0.8;
+}

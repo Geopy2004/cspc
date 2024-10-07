@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2AA4CFF;
+    box-shadow: 0px 2px 5px #f1f1f1;
+}
+
+.logo-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 50px;
+    padding-block: 7px;
+}
+
+.business-name {
+    margin-left: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.Logo-BusinessName-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.HSAC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 325px;
+    font-weight: bold;
+    margin-right: 125px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.a-link {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    transition: color 0.15s;
+    cursor:pointer;
+}
+.home:hover {
+    color: #26b6a3;
+}
+
+.shop {
+    transition: color 0.15s;
+    cursor:pointer;
+
+}
+
+.shop:hover {
+    color: #26b6a3;
+}
+
+.contact {
+    transition: color 0.15s;
+    cursor:pointer;
+    color: #26b6a3;
+}
+
+.contact:hover {
+    color: #26b6a3;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px auto 70px auto;
+    width: 1100px; 
+    border-bottom: solid 1px #f1f1f1;
+}
+
+.icon-logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    border: none;
+    margin-bottom: 17px;
+}
+
+.header-message {
+    color: #f1f1f1;
+    font-size: 27px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 33px;
+}
+
+.name {
+    margin-bottom: 13px;
+    width: 415px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    border-radius: 8px;
+    border: none;
+}
+
+.email {
+    width: 415px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    border: none;}   
+
+.number {
+    width: 415px;
+    height: 40px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    border: none;
+}
+
+.message {
+    width: 415px;
+    height: 175px;
+    font-size: 15px;
+    padding-inline: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    text-align: center;
+}
+
+.button-submit {
+    width: 240px;
+    height: 44px;
+    font-size: 17px;
+    margin-top: 30px; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, box-shadow 0.15s,
+    width 0.68s, height 0.68s;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 77px;
+}
+
+.button-submit:hover {
+    width: 300px;
+    height: 52px;
+    background-color:#26b6a3;
+    box-shadow: 1px 1px 12px #26b6a3;
+}
+
+.button-submit:active {
+    opacity: 0.8;
+}
+
+.contact-header-div {
+    width: 260px;
+    margin: 0px auto 75px auto;
+}
+
+.contact-header {
+    color: #f1f1f1;
+    font-size: 27px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 33px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 72px;
+}
+
+.icon {
+    width: 47px; 
+    height: 47px;
+    border-radius: 100%;
+    border: none;
+    margin-right: 15px;
+}
+
+.p1 {
+    color: #f1f1f1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: -15px;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.p2 {
+    color: #f1f1f1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+
+.Address-div {
+    height: 135px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #f1f1f1;
+    align-items: center;
+    padding-inline: 15px;
+    border-radius: 13px;
+}
+
+.Phone-Number-div {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #f1f1f1;
+    align-items: center;
+    padding-inline: 15px;
+    border-radius: 13px;
+}
+
+.Email-div {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #f1f1f1;
+    align-items: center;
+    padding-inline: 15px;
+    border-radius: 13px;
+}
+
+
+
